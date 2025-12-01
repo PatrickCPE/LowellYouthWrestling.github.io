@@ -23,18 +23,16 @@
 #+end_export
 
 * Registration Steps
-1. Do the thing
-2. Sign up for remind
-3. Show up to practice :)
+Registration is closed for the 2025-2026 season!
 
 # TODO PATDEBUG Put Facebook links here and whatever else we have
 # TODO PATDEBUG Put Image here
-# TODO PATDEBUG Figure out proper 
+# TODO PATDEBUG Figure out proper
 #+begin_export html
 <center>
 <br>
-Contact: <a href = mailto: "Pat@PatrickCPE.com">Pat@PatrickCPE.com</a>
+Contact: <a href = mailto: "Pat@LowellYouthWrestling.com">Pat@LowellYouthWrestling.com</a>
 <br>
-©PatrickCPE
+©LowellYouthWrestling
 </center>
 #+end_export

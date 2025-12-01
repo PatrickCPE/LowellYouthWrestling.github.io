@@ -23,7 +23,7 @@
 #+end_export
 
 * 2025-2026 Season
-** Big Red Tournament
+To be updated!
 
 
 # TODO PATDEBUG Put Facebook links here and whatever else we have
@@ -32,9 +32,9 @@
 #+begin_export html
 <center>
 <br>
-Contact: <a href = mailto: "Pat@PatrickCPE.com">Pat@PatrickCPE.com</a>
+Contact: <a href = mailto: "Pat@LowellYouthWrestling.com">Pat@LowellYouthWrestling.com</a>
 <br>
-©PatrickCPE
+©LowellYouthWrestling
 </center>
 #+end_export
 

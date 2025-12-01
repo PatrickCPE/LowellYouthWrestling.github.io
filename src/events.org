@@ -22,13 +22,44 @@
 </div>
 #+end_export
 
-* Upcoming Events
-** [[file:events/fake_event0.org][Big Red Tournament]]
-September 15th @ FAKE LOCATION (Register by September 5th!)
-** [[file:events/fake_event1.org][Woburn Tournament]]
-September 10th @ FAKE LOCATION (Register by September 1st!)
-* Prior Events
+* Events
+Please note that these events and dates are a best effort. Latest news will always be sent via Remind!
 
+Tournaments typically require pre-registration! Very few have same day sign-ups, sign up early!
+Missing entries will be updated as soon as possible :)
+
+#+begin_export html
+<hr>
+#+end_export
+|------------------------------------------------------+---------------------------------+------------+---------|
+| Event                                                | Location                        | Date       | Website |
+|------------------------------------------------------+---------------------------------+------------+---------|
+| Chelmsford Scrimmage                                 |                                 | 12/6/2025  | N/A     |
+| North Andover Scrimmage                              |                                 | 12/13/2025 | N/A     |
+| Red Devil Rumble Tournament                          | Burlington High School          | 12/14/2025 | [[https://events.flowrestling.org/event/e632c3a2-b1b8-4d08-9069-9661ffa4bc94/summary][Sign-up]] |
+| Chelmsford Scrimmage                                 | Chelmsford High School          | 12/20/2025 | N/A     |
+| Little Big Red Tournament                            | Tyngsboro Sports Center         | 12/21/2025 | [[https://events.flowrestling.org/event/d323f22b-632f-40a4-946e-7ffeadede32d/registration][Sign-up]] |
+| Girl's Kickoff Classic                               |                                 | 12/28/2025 |         |
+| Timberlane Tournament                                | Timberlane Regional High School | 12/29/2025 | [[https://www.flowrestling.org/nextgen/events/12880189/information][Sign-up]] |
+| Chelmsford Tournament                                | Chelmsford High School          | 1/4/2026   |         |
+| Tewksbury Scrimmage                                  |                                 | 1/10/2026  | N/A     |
+| Tewksbury Scrimmage                                  |                                 | 1/17/2026  | N/A     |
+| Running of the Bulls Tournament                      | Woburn High School              | 1/18/2025  | [[https://events.flowrestling.org/event/24fdd999-d86d-424c-a604-3cdb0d72284d/summary][Sign-up]] |
+| Jon Spohn Memorial Tournament                        |                                 | 1/25/2025  |         |
+|------------------------------------------------------+---------------------------------+------------+---------|
+| 10U - State Tournament                               |                                 | 2/8/2025   |         |
+| 12U 15U - Sectional Tournament                       |                                 | 2/15/2025  |         |
+| 12U 15U - State Tournament                           |                                 | 2/22/2025  |         |
+| 6U 8U 10U 12U 15U - Girls State Tournament           |                                 | 3/1/2025   |         |
+| 12U 15U Big East Tournament                          |                                 | 3/1/2025   |         |
+|------------------------------------------------------+---------------------------------+------------+---------|
+| 10U 12U / 15U - Girls New England Tournament - Day 1 |                                 | 3/14/2025  |         |
+| 10U 12U / 15U - Girls New England Tournament - Day 2 |                                 | 3/15/2025  |         |
+| 15U - New England Tournament of Champions            |                                 | 3/22/2025  |         |
+|------------------------------------------------------+---------------------------------+------------+---------|
+#+begin_export html
+<hr>
+#+end_export
 
 # TODO PATDEBUG Put Facebook links here and whatever else we have
 # TODO PATDEBUG Put Image here
@@ -36,8 +67,8 @@ September 10th @ FAKE LOCATION (Register by September 1st!)
 #+begin_export html
 <center>
 <br>
-Contact: <a href = mailto: "Pat@PatrickCPE.com">Pat@PatrickCPE.com</a>
+Contact: <a href = mailto: "Pat@LowellYouthWrestling.com">Pat@LowellYouthWrestling.com</a>
 <br>
-©PatrickCPE
+©LowellYouthWrestling
 </center>
 #+end_export

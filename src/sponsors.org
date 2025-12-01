@@ -23,12 +23,16 @@
 #+end_export
 
 * To Our Sponsors
-We'd like to type out a heartfelt thank you that I don't have time to type right now :) Thanks Guys
+We'd like to thank all who sponsor the program. All donations are appreciated and help the Kid's have a great season!
 * Sponsors
-** Firefighters Union
-Put Pretty Pictures
-** DEA PROGRAM THING :)
-Put Pretty Pictures and links
+** Professional Fire Fighters of Lowell MA - 2024-25 Sponsor
+#+begin_export html
+<center>
+<img src="/assets/images/lowell_youth_firefighters_founding_image.jpg" style="width:40%;height:40%">
+</center>
+#+end_export
+Thank you to the [[https://www.facebook.com/100064619116846/posts/-were-happy-to-support-such-a-great-organization-lowell-youth-wrestling/1078238917673402/][Lowell Firefighter's Union]] for sponsoring the team in 2025, and thank you to the members of the Union that helped kick this program off the ground back at the Boy's and Girl's Club!
+
 
 # TODO PATDEBUG Put Facebook links here and whatever else we have
 # TODO PATDEBUG Put Image here
@@ -36,9 +40,9 @@ Put Pretty Pictures and links
 #+begin_export html
 <center>
 <br>
-Contact: <a href = mailto: "Pat@PatrickCPE.com">Pat@PatrickCPE.com</a>
+Contact: <a href = mailto: "Pat@LowellYouthWrestling.com">Pat@LowellYouthWrestling.com</a>
 <br>
-©PatrickCPE
+©LowellYouthWrestling
 </center>
 #+end_export
 

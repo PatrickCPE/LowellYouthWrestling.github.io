@@ -24,221 +24,35 @@
 
 * Practice Details
 
---------------------------------------------
-Practices are held twice per week, on Monday and Friday at TODO.
+Practices are held twice per week, on Monday and Friday from 6:00-7:30 PM
+
+Warm-ups start at 5:45 PM. If you're not early, you're late! :)
+
+Occasionally Saturday practices will be held, and will be announced via Remind.
 
 Practices are held at Doughboy Wrestling Club:
 171 Lincoln St, Lowell, MA 01852, USA
 
 --------------------------------------------
 
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
-Fake Padding to show Table of Contents Working
-
+* For the Wrestlers
+1. All wrestlers must take off their outside shoes before walking on the mats!
+2. Access the locker rooms through the wrestling rooms, not via the weight room!
+3. Wrestlers should put all belongings in a locker before practice, or find a spot on the floor in the locker room.
+
+--------------------------------------------
 
 * Upcoming Events
-** [[file:events/fake_event0.org][Big Red Tournament]]
-September 15th @ FAKE LOCATION (Register by September 5th!)
-** [[file:events/fake_event1.org][Woburn Tournament]]
-September 10th @ FAKE LOCATION (Register by September 1st!)
-
+|------------------------------------------------------+---------------------------------+------------+---------|
+| Event                                                | Location                        | Date       | Website |
+|------------------------------------------------------+---------------------------------+------------+---------|
+| Chelmsford Scrimmage                                 | TBA                             | 12/6/2025  | N/A     |
+| North Andover Scrimmage                              | TBA                             | 12/13/2025 | N/A     |
+| Red Devil Rumble Tournament                          | Burlington High School          | 12/14/2025 | [[https://events.flowrestling.org/event/e632c3a2-b1b8-4d08-9069-9661ffa4bc94/summary][Sign-up]] |
+|------------------------------------------------------+---------------------------------+------------+---------|
+#+begin_export html
+<hr>
+#+end_export
 
 # TODO PATDEBUG Put Facebook links here and whatever else we have
 # TODO PATDEBUG Put Image here
@@ -246,8 +60,8 @@ September 10th @ FAKE LOCATION (Register by September 1st!)
 #+begin_export html
 <center>
 <br>
-Contact: <a href = mailto: "Pat@PatrickCPE.com">Pat@PatrickCPE.com</a>
+Contact: <a href = mailto: "Pat@LowellYouthWrestling.com">Pat@LowellYouthWrestling.com</a>
 <br>
-©PatrickCPE
+©LowellYouthWrestling
 </center>
 #+end_export

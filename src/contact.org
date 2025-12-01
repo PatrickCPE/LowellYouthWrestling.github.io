@@ -27,15 +27,23 @@ This is the preferred way of messaging coaches as well.
 
 Details about extra practices, events, cancellations due to weather, etc. will be sent via Remind!
 
+Please opt towards communicating via Remind rather than via text/call when possible, thanks!
+
 * Contact Information
 ** Kevin Dillon
 Head Coach & Program Organizer
-PHONE_NUMBER
-EMAIL
+
+978-866-1622
+#+begin_export html
+<hr>
+#+end_export
 ** Patrick Hoey
-Coach & Website Maintainer
-PHONE_NUMBER
-EMAIL
+Coach & Site Maintainer
+
+978-799-8784
+#+begin_export html
+<hr>
+#+end_export
 
 # TODO PATDEBUG Put Facebook links here and whatever else we have
 # TODO PATDEBUG Put Image here
@@ -43,8 +51,8 @@ EMAIL
 #+begin_export html
 <center>
 <br>
-Contact: <a href = mailto: "Pat@PatrickCPE.com">Pat@PatrickCPE.com</a>
+Contact: <a href = mailto: "Pat@LowellYouthWrestling.com">Pat@LowellYouthWrestling.com</a>
 <br>
-©PatrickCPE
+©LowellYouthWrestling
 </center>
 #+end_export
