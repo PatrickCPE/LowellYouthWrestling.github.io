@@ -1,0 +1,43 @@
+#+title: Lowell Youth Wrestling
+#+description: Events page for Lowell Youth wrestling
+#+options: toc:t
+
+
+#+begin_export html
+<center>
+<img src="/assets/images/lowell_youth_wrestling_logo.jpg " style="width:100%;height:100%">
+</center>
+#+end_export
+
+
+# TODO PATDEBUG FIXME
+#+begin_export html
+<div class="topnav">
+  <a href="/index.html">Home</a>
+  <a href="/registration.html">Registration</a>
+  <a class="active" href="/events.html">Events</a>
+  <a href="/gallery.html">Gallery</a>
+  <a href="/sponsors.html">Sponsors</a>
+  <a href="/contact.html">Contact</a>
+</div>
+#+end_export
+
+* Upcoming Events
+** [[file:events/fake_event0.org][Big Red Tournament]]
+September 15th @ FAKE LOCATION (Register by September 5th!)
+** [[file:events/fake_event1.org][Woburn Tournament]]
+September 10th @ FAKE LOCATION (Register by September 1st!)
+* Prior Events
+
+
+# TODO PATDEBUG Put Facebook links here and whatever else we have
+# TODO PATDEBUG Put Image here
+# TODO PATDEBUG Figure out proper 
+#+begin_export html
+<center>
+<br>
+Contact: <a href = mailto: "Pat@PatrickCPE.com">Pat@PatrickCPE.com</a>
+<br>
+©PatrickCPE
+</center>
+#+end_export

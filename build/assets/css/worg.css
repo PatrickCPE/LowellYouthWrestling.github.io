@@ -72,7 +72,8 @@ This CSS style-sheet is licensed under the [[https://www.gnu.org/licenses/gpl-3.
 	      margin-left: 0px;
 	      font-size: 24pt;
 	      color: white;
-        background-color: #5D4D7A;
+        /*TODO PATDEBUG WRESTLING*/
+        background-color: #800000;
         padding-top: 1ex;
         padding-bottom: 1ex;
     }
@@ -138,12 +139,13 @@ This CSS style-sheet is licensed under the [[https://www.gnu.org/licenses/gpl-3.
 
     h1 {
 	      color: white;
-	      margin-bottom: 1em;
-    }
+	      margin-bottom: 1em;}
 
     /* TODO FIXME adjust header colors to something I like maybe spacemacs purple?*/
     h2 {
-	      color: #4F97D7;
+
+        /*TODO PATDEBUG WRESTLING*/
+	      color: white;
 	      border-bottom: 1px solid #ddd;
 	      margin-top: 1.5em;
 	      padding-bottom: 8px;
@@ -154,7 +156,7 @@ This CSS style-sheet is licensed under the [[https://www.gnu.org/licenses/gpl-3.
     }
 
     h3 {
-	      color: #2D9574;
+	      color: white;
 	      margin-left: 0.6em;
     }
 
@@ -1099,7 +1101,8 @@ This CSS style-sheet is licensed under the [[https://www.gnu.org/licenses/gpl-3.
     /* TODO FIXME PATDEBUG matching colors*/
     /* Add a black background color to the top navigation */
     .topnav {
-        background-color: #2f2b33;
+        /*TODO PATDEBUG WRESTLING*/
+        background-color: #800000;
         overflow: hidden;
     }
 
@@ -1121,8 +1124,8 @@ This CSS style-sheet is licensed under the [[https://www.gnu.org/licenses/gpl-3.
 
     /* Add a color to the active/current link */
     .topnav a.active {
-        background-color: #5D4D7A;
-        color: white;
+        background-color: white;
+        color: black;
 }
 
 

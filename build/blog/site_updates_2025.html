@@ -6,22 +6,21 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Site Update 2025</title>
-<meta name="generator" content="Org mode" />
-<meta name="description" content="Update on site changes, current, and future plans"
- />
+<meta name="description" content="Update on site changes, current, and future plans" />
+<meta name="generator" content="Org Mode" />
 <link rel="stylesheet" href="/assets/css/worg.css" />
 </head>
 <body>
-<div id="content">
+<div id="content" class="content">
 <h1 class="title">Site Update 2025</h1>
-<div id="table-of-contents">
+<div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
-<div id="text-table-of-contents">
+<div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgb3fc62f">Death of the Old Site</a></li>
-<li><a href="#orgec8ea9d">Birth of the New Site</a></li>
-<li><a href="#org69d5030">Where I've Been</a></li>
-<li><a href="#orgd3aaf81">Plans for the Future</a></li>
+<li><a href="#org033a2a2">Death of the Old Site</a></li>
+<li><a href="#org9773e70">Birth of the New Site</a></li>
+<li><a href="#org5cd1730">Where I've Been</a></li>
+<li><a href="#org3cdc3f3">Plans for the Future</a></li>
 </ul>
 </div>
 </div>
@@ -34,9 +33,9 @@
 <a href="/links.html">Links</a>
 </div>
 
-<div id="outline-container-orgb3fc62f" class="outline-2">
-<h2 id="orgb3fc62f">Death of the Old Site</h2>
-<div class="outline-text-2" id="text-orgb3fc62f">
+<div id="outline-container-org033a2a2" class="outline-2">
+<h2 id="org033a2a2">Death of the Old Site</h2>
+<div class="outline-text-2" id="text-org033a2a2">
 <p>
 The old version of this site was hosted using Jekyll, Ruby, Markdown, and a good old batch of glue scripts.
 I'd build it and deploy it via <a href="https://github.io">Github's free hosting</a>
@@ -58,9 +57,9 @@ method of lazy loading any package you may need during development. You can stil
 </p>
 </div>
 </div>
-<div id="outline-container-orgec8ea9d" class="outline-2">
-<h2 id="orgec8ea9d">Birth of the New Site</h2>
-<div class="outline-text-2" id="text-orgec8ea9d">
+<div id="outline-container-org9773e70" class="outline-2">
+<h2 id="org9773e70">Birth of the New Site</h2>
+<div class="outline-text-2" id="text-org9773e70">
 <p>
 The new site is written in Org mode. I use Org Mode's export capabilities to recurse through all source files,
 and simply host the HTML it generates.
@@ -71,50 +70,50 @@ The generate command is about as simple as it gets, it's a quick elisp script ba
 </p>
 
 <div class="org-src-container">
-<pre class="src src-elisp"><span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Set the package installation directory so that packages aren't stored in the</span>
-<span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">~/.emacs.d/elpa path.</span>
-(<span style="font-weight: bold;">require</span> '<span style="font-weight: bold; text-decoration: underline;">package</span>)
+<pre class="src src-elisp"><span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Set the package installation directory so that packages aren't stored in the
+</span><span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">~/.emacs.d/elpa path.
+</span>(<span style="font-weight: bold;">require</span> '<span style="font-weight: bold; text-decoration: underline;">package</span>)
 (<span style="font-weight: bold;">setq</span> package-user-dir (expand-file-name <span style="font-style: italic;">"./.packages"</span>))
 (<span style="font-weight: bold;">setq</span> package-archives '((<span style="font-style: italic;">"melpa"</span> . <span style="font-style: italic;">"https://melpa.org/packages/"</span>)
                          (<span style="font-style: italic;">"elpa"</span> . <span style="font-style: italic;">"https://elpa.gnu.org/packages/"</span>)))
 
-<span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Initialize the package system</span>
-(package-initialize)
+<span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Initialize the package system
+</span>(package-initialize)
 (<span style="font-weight: bold;">unless</span> package-archive-contents
   (package-refresh-contents))
 
-<span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Install dependencies</span>
-(package-install 'htmlize)
+<span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Install dependencies
+</span>(package-install 'htmlize)
 
 
-<span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Load the publishing system</span>
-(<span style="font-weight: bold;">require</span> '<span style="font-weight: bold; text-decoration: underline;">ox-publish</span>)
+<span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Load the publishing system
+</span>(<span style="font-weight: bold;">require</span> '<span style="font-weight: bold; text-decoration: underline;">ox-publish</span>)
 
 
 
-<span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Define the publishing project</span>
-(<span style="font-weight: bold;">setq</span> org-publish-project-alist
+<span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Define the publishing project
+</span>(<span style="font-weight: bold;">setq</span> org-publish-project-alist
       (list
        (list <span style="font-style: italic;">"patrickcpe"</span>
              <span style="font-weight: bold;">:recursive</span> t
              <span style="font-weight: bold;">:base-directory</span> <span style="font-style: italic;">"./src"</span>
              <span style="font-weight: bold;">:publishing-directory</span> <span style="font-style: italic;">"./build"</span>
              <span style="font-weight: bold;">:publishing-function</span> 'org-html-publish-to-html
-             <span style="font-weight: bold;">:with-author</span> nil           <span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Don't include author name</span>
-             <span style="font-weight: bold;">:with-creator</span> nil          <span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Include Emacs and Org versions in footer</span>
-             <span style="font-weight: bold;">:with-toc</span> t                <span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Include a table of contents</span>
-             <span style="font-weight: bold;">:section-numbers</span> nil       <span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Don't include section numbers</span>
-             <span style="font-weight: bold;">:time-stamp-file</span> nil)))    <span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Don't include time stamp in file</span>
-
-<span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Customize the HTML output</span>
-(<span style="font-weight: bold;">setq</span> org-html-validation-link nil            <span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Don't show validation link</span>
-      org-html-head-include-scripts nil       <span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Use our own scripts</span>
-      org-html-head-include-default-style nil <span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Use our own styles</span>
-      org-html-head <span style="font-style: italic;">"&lt;link rel=\"stylesheet\" href=\"/assets/css/worg.css\" /&gt;"</span>
+             <span style="font-weight: bold;">:with-author</span> nil           <span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Don't include author name
+</span>             <span style="font-weight: bold;">:with-creator</span> nil          <span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Include Emacs and Org versions in footer
+</span>             <span style="font-weight: bold;">:with-toc</span> t                <span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Include a table of contents
+</span>             <span style="font-weight: bold;">:section-numbers</span> nil       <span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Don't include section numbers
+</span>             <span style="font-weight: bold;">:time-stamp-file</span> nil)))    <span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Don't include time stamp in file
+</span>
+<span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Customize the HTML output
+</span>(<span style="font-weight: bold;">setq</span> org-html-validation-link nil            <span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Don't show validation link
+</span>      org-html-head-include-scripts nil       <span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Use our own scripts
+</span>      org-html-head-include-default-style nil <span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Use our own styles
+</span>      org-html-head <span style="font-style: italic;">"&lt;link rel=\"stylesheet\" href=\"/assets/css/worg.css\" /&gt;"</span>
       )
 
-<span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Generate the site output</span>
-(org-publish-all t)
+<span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Generate the site output
+</span>(org-publish-all t)
 
 (message <span style="font-style: italic;">"Build complete!"</span>)
 </pre>
@@ -124,10 +123,10 @@ The generate command is about as simple as it gets, it's a quick elisp script ba
 Then I just have a quick shell script to call this build below:
 </p>
 <div class="org-src-container">
-<pre class="src src-shell"><span style="font-weight: bold; font-style: italic;">#</span><span style="font-weight: bold; font-style: italic;">!/bin/</span><span style="font-weight: bold;">sh</span>
-emacs -Q --script build-site.el <span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">Build the site</span>
-cp assets build/ -r             <span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">Copy over any assets I use</span>
-cp src/robots.txt build/        <span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">And this file tells crawlers what they can search</span>
+<pre class="src src-shell"><span style="font-weight: bold; font-style: italic;">#</span><span style="font-weight: bold; font-style: italic;">!/bin/</span><span style="font-weight: bold;">sh</span><span style="font-weight: bold; font-style: italic;">
+</span>emacs -Q --script build-site.el <span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">Build the site
+</span>cp assets build/ -r             <span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">Copy over any assets I use
+</span>cp src/robots.txt build/        <span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">And this file tells crawlers what they can search</span>
 </pre>
 </div>
 
@@ -194,9 +193,9 @@ I think the design looks nice, and it's as simple as it can come.
 </p>
 </div>
 </div>
-<div id="outline-container-org69d5030" class="outline-2">
-<h2 id="org69d5030">Where I've Been</h2>
-<div class="outline-text-2" id="text-org69d5030">
+<div id="outline-container-org5cd1730" class="outline-2">
+<h2 id="org5cd1730">Where I've Been</h2>
+<div class="outline-text-2" id="text-org5cd1730">
 <p>
 I used to make posts back during Uni where I thought I had sooooo much work to do :)
 I've only been working for ~3.5 years since then but I've already worked on 5 chips somehow, gotta love crazy schedules.
@@ -211,9 +210,9 @@ I bought myself a house and have to deal with everything that goes along with th
 </p>
 </div>
 </div>
-<div id="outline-container-orgd3aaf81" class="outline-2">
-<h2 id="orgd3aaf81">Plans for the Future</h2>
-<div class="outline-text-2" id="text-orgd3aaf81">
+<div id="outline-container-org3cdc3f3" class="outline-2">
+<h2 id="org3cdc3f3">Plans for the Future</h2>
+<div class="outline-text-2" id="text-org3cdc3f3">
 <p>
 I couldn't tell you what the future holds. If I could read the future I'd get paid a lot more.
 Here's some ideas I was pondering, who knows what will happen :)

@@ -1,0 +1,50 @@
+#+title: Lowell Youth Wrestling
+#+description: Contact page for Lowell Youth wrestling
+#+options: toc:t
+
+
+#+begin_export html
+<center>
+<img src="/assets/images/lowell_youth_wrestling_logo.jpg " style="width:100%;height:100%">
+</center>
+#+end_export
+
+#+begin_export html
+<div class="topnav">
+  <a href="/index.html">Home</a>
+  <a href="/registration.html">Registration</a>
+  <a href="/events.html">Events</a>
+  <a href="/gallery.html">Gallery</a>
+  <a href="/sponsors.html">Sponsors</a>
+  <a class="active" href="/contact.html">Contact</a>
+</div>
+#+end_export
+
+
+* Remind App Details
+All communications will be sent via the remind app! Please insure it's installed and notifications are enabled.
+This is the preferred way of messaging coaches as well.
+
+Details about extra practices, events, cancellations due to weather, etc. will be sent via Remind!
+
+* Contact Information
+** Kevin Dillon
+Head Coach & Program Organizer
+PHONE_NUMBER
+EMAIL
+** Patrick Hoey
+Coach & Website Maintainer
+PHONE_NUMBER
+EMAIL
+
+# TODO PATDEBUG Put Facebook links here and whatever else we have
+# TODO PATDEBUG Put Image here
+# TODO PATDEBUG Figure out proper 
+#+begin_export html
+<center>
+<br>
+Contact: <a href = mailto: "Pat@PatrickCPE.com">Pat@PatrickCPE.com</a>
+<br>
+©PatrickCPE
+</center>
+#+end_export

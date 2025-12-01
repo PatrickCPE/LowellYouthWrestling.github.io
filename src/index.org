@@ -1,48 +1,250 @@
-#+title: PatrickCPE
-#+description: Index page for patrickcpe.com
+#+title: Lowell Youth Wrestling
+#+description: Index page for Lowell Youth wrestling
 #+options: toc:t
-
-#+begin_export html
-<div class="topnav">
-  <a class="active" href="/index.html">Home</a>
-  <a href="/tutorials.html">Tutorials</a>
-  <a href="/projects.html">Projects</a>
-  <a href="/blog.html">Blog</a>
-  <a href="/about_me.html">About Me</a>
-  <a href="/links.html">Links</a>
-</div>
-#+end_export
-
-* Welcome!
-My name's Patrick. I'm a Computer Engineer who works in Design Verification, Digital Design, and Embedded Software.
-This sites home to my Blog, Project Write-Ups, Tutorials, Rants,
-and whatever else in the world I'm in the mood for :)
-
-If any of that interests you check my posts out, and feel free to reach out!
-
-* Recent Posts
-** [[file:blog/site_updates_2025.org][Site Updates 2025]]
-
-
-* Interests
-- Electronics
-- Digital Design
-- Design Verification
-- Formal Verification
-- Processor and DSP Design
-- Embedded Software
-- Hiking
-- Lord of the Rings
-- Breaking Things
-- Fixing Things
-- Breaking Things Again :)
-
 
 
 #+begin_export html
 <center>
-<a href="https://www.gnu.org/software/emacs/"> <img src="/assets/images/made_with_emacs.png"></a>
-<a href="https://www.spacemacs.org/"> <img src="/assets/images/made_with_spacemacs.png"></a>
+<img src="/assets/images/lowell_youth_wrestling_logo.jpg " style="width:100%;height:100%">
+</center>
+#+end_export
+
+
+# TODO PATDEBUG FIXME
+#+begin_export html
+<div class="topnav">
+  <a class="active" href="/index.html">Home</a>
+  <a href="/registration.html">Registration</a>
+  <a href="/events.html">Events</a>
+  <a href="/gallery.html">Gallery</a>
+  <a href="/sponsors.html">Sponsors</a>
+  <a href="/contact.html">Contact</a>
+</div>
+#+end_export
+
+* Practice Details
+
+--------------------------------------------
+Practices are held twice per week, on Monday and Friday at TODO.
+
+Practices are held at Doughboy Wrestling Club:
+171 Lincoln St, Lowell, MA 01852, USA
+
+--------------------------------------------
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+Fake Padding to show Table of Contents Working
+
+
+* Upcoming Events
+** [[file:events/fake_event0.org][Big Red Tournament]]
+September 15th @ FAKE LOCATION (Register by September 5th!)
+** [[file:events/fake_event1.org][Woburn Tournament]]
+September 10th @ FAKE LOCATION (Register by September 1st!)
+
+
+# TODO PATDEBUG Put Facebook links here and whatever else we have
+# TODO PATDEBUG Put Image here
+# TODO PATDEBUG Figure out proper 
+#+begin_export html
+<center>
 <br>
 Contact: <a href = mailto: "Pat@PatrickCPE.com">Pat@PatrickCPE.com</a>
 <br>
