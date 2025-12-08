@@ -22,6 +22,9 @@
 #+end_export
 * About Us
 This site is home for Lowell Youth Wrestling out of Lowell MA
+
+--------------------------------------------
+
 * Practice Details
 
 Practices are held twice per week, on Monday and Friday from 6:00-7:30 PM
