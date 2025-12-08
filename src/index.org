@@ -12,8 +12,7 @@
 
 # TODO PATDEBUG FIXME
 #+begin_export html
-<div class="topnav">
-  <a class="active" href="/index.html">Home</a>
+<div class="topnav"> <a class="active" href="/index.html">Home</a>
   <a href="/registration.html">Registration</a>
   <a href="/events.html">Events</a>
   <a href="/gallery.html">Gallery</a>
@@ -21,7 +20,8 @@
   <a href="/contact.html">Contact</a>
 </div>
 #+end_export
-
+* About Us
+This site is home for Lowell Youth Wrestling out of Lowell MA
 * Practice Details
 
 Practices are held twice per week, on Monday and Friday from 6:00-7:30 PM
@@ -46,9 +46,10 @@ Practices are held at Doughboy Wrestling Club:
 |------------------------------------------------------+---------------------------------+------------+---------|
 | Event                                                | Location                        | Date       | Website |
 |------------------------------------------------------+---------------------------------+------------+---------|
-| Chelmsford Scrimmage                                 | TBA                             | 12/6/2025  | N/A     |
 | North Andover Scrimmage                              | TBA                             | 12/13/2025 | N/A     |
 | Red Devil Rumble Tournament                          | Burlington High School          | 12/14/2025 | [[https://events.flowrestling.org/event/e632c3a2-b1b8-4d08-9069-9661ffa4bc94/summary][Sign-up]] |
+| Chelmsford Scrimmage                                 | Chelmsford High School          | 12/20/2025 | N/A     |
+| Little Big Red Tournament                            | Tyngsboro Sports Center         | 12/21/2025 | [[https://events.flowrestling.org/event/d323f22b-632f-40a4-946e-7ffeadede32d/registration][Sign-up]] |
 |------------------------------------------------------+---------------------------------+------------+---------|
 #+begin_export html
 <hr>

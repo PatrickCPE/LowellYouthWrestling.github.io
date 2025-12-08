@@ -25,6 +25,11 @@
 * To Our Sponsors
 We'd like to thank all who sponsor the program. All donations are appreciated and help the Kid's have a great season!
 * Sponsors
+** [[https://www.doughboywrestling.com/][Doughboy Wrestling Club]]
+Thank you to Coach Marshall for allowing us to train out of Doughboy's facilities! Wrestlers are encouraged to join the club team if interested!
+#+begin_export html
+<hr>
+#+end_export
 ** Professional Fire Fighters of Lowell MA - 2024-25 Sponsor
 #+begin_export html
 <center>
@@ -32,7 +37,9 @@ We'd like to thank all who sponsor the program. All donations are appreciated an
 </center>
 #+end_export
 Thank you to the [[https://www.facebook.com/100064619116846/posts/-were-happy-to-support-such-a-great-organization-lowell-youth-wrestling/1078238917673402/][Lowell Firefighter's Union]] for sponsoring the team in 2025, and thank you to the members of the Union that helped kick this program off the ground back at the Boy's and Girl's Club!
-
+#+begin_export html
+<hr>
+#+end_export
 
 # TODO PATDEBUG Put Facebook links here and whatever else we have
 # TODO PATDEBUG Put Image here
