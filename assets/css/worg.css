@@ -1142,3 +1142,9 @@ This CSS style-sheet is licensed under the [[https://www.gnu.org/licenses/gpl-3.
 	      overflow: auto;
     }
 } /* END OF @media screen */
+
+.gallery-button {
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+}
