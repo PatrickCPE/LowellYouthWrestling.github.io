@@ -21,14 +21,107 @@
   <a href="/contact.html">Contact</a>
 </div>
 #+end_export
-
 * 2025-2026 Season
-To be updated!
+#+begin_export html
+<div style="position:relative; max-width:100%; margin:auto; text-align:center;">
+
+  <img id="gallery-image"
+       src="/assets/images/lowell_youth_wrestling_2025_2026/628985715_17898845424381235_3650601598817468104_n.jpg"
+       style="width:100%; height:80vh; object-fit:contain;">
+
+  <button onclick="previousImage()"
+          style="position:absolute; left:10px; top:50%; transform:translateY(-50%); font-size:30px; padding:10px 15px;">
+    &#10094;
+  </button>
+
+  <button onclick="nextImage()"
+          style="position:absolute; right:10px; top:50%; transform:translateY(-50%); font-size:30px; padding:10px 15px;">
+    &#10095;
+  </button>
+
+</div>
+
+<script>
+const galleryImages = [
+ "/assets/images/lowell_youth_wrestling_2025_2026/628985715_17898845424381235_3650601598817468104_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/656298640_17904977319381235_7831189929580410452_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/656294812_17904977238381235_6382163539327375267_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/656286763_17904977202381235_911502777401256079_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/656284100_17904977307381235_3274958476086178074_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/656279568_17904977172381235_8422256690546739659_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/656278308_17904977247381235_1253793943774441421_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/656267141_17904977190381235_4251512861659581941_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/656087051_17904977163381235_6787261640351977070_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/653649419_17903783832381235_6199819213636215489_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/653527196_17903639136381235_9219735897303888828_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/653465302_17903783787381235_528257711073251852_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/652929140_17903783748381235_1673374777097572733_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/652787271_17903783739381235_4146825445067267977_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/652757830_17903783826381235_6156002731264344198_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/652685305_17903639154381235_3463231985932433296_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/652569613_17903783778381235_8698423463448890475_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/652552138_17903783769381235_1854597427831005120_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/652369982_17903783757381235_1909681452856265984_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/652154462_17903783805381235_7348321471086906538_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/651951274_17903783841381235_8673722333720130686_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/651936234_17903783796381235_4274425918503918209_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/651621905_17903639082381235_7681750740854783482_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/651600491_17903639109381235_2378722806056685358_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/648670280_17902280352381235_4095302759506585425_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/646017323_17902280400381235_136412669063894023_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/645765762_17902280382381235_7722394187747149304_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/642511124_17900685915381235_2073888384514541720_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/641779047_17901499221381235_907478210892341695_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/641752512_17900685861381235_1289034688759864099_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/641643475_17900685924381235_912186754318101342_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/641537900_17901498957381235_6917374918387734644_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/641382406_17900685954381235_2553245037738849387_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/641376859_17901498966381235_78685063510160966_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/641314590_17901499011381235_2315397334528999151_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/641215446_17900685870381235_5776543661004060087_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/641055721_17900685933381235_7869583512534389903_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/641048453_17901498981381235_5170508381222434785_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/640950886_17901499194381235_9030279595185588483_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/640930594_17901499185381235_2043691297542967376_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/640887095_17901499008381235_8013673528279109783_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/640876324_17900685888381235_1297450867069028955_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/640873026_17900685906381235_271686857553332246_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/640788721_17900685963381235_5472181152577927143_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/640402177_17900685879381235_4377412517072450351_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/640399920_17901498993381235_8534661336981789736_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/639917887_17901499212381235_1269596347606208950_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/639830273_17901498984381235_6416784734959819120_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/636260818_17899790934381235_7920727156323578933_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/635772055_17899790943381235_4030609231725569247_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/634875621_17899790898381235_5402429903853257963_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/631751626_17898845532381235_166186896538868175_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/630139920_17898845388381235_5520265588916137808_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/629852117_17898845397381235_6305903770711122529_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/629849094_17898845487381235_3326396413171469877_n.jpg",
+  "/assets/images/lowell_youth_wrestling_2025_2026/629666050_17898845412381235_41500176955199261_n.jpg",
+];
+
+let currentImage = 0;
+
+function showImage(index) {
+  currentImage = (index + galleryImages.length) % galleryImages.length;
+  document.getElementById("gallery-image").src = galleryImages[currentImage];
+}
+
+function previousImage() {
+  showImage(currentImage - 1);
+}
+
+function nextImage() {
+  showImage(currentImage + 1);
+}
+</script>
+#+end_export
 
 
 # TODO PATDEBUG Put Facebook links here and whatever else we have
 # TODO PATDEBUG Put Image here
-# TODO PATDEBUG Figure out proper 
+# TODO PATDEBUG Figure out proper
 #+begin_export html
 <center>
 <br>
@@ -37,4 +130,3 @@ Contact: <a href = mailto: "Pat@LowellYouthWrestling.com">Pat@LowellYouthWrestli
 ©LowellYouthWrestling
 </center>
 #+end_export
-

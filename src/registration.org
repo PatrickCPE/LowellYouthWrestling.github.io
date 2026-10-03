@@ -23,7 +23,10 @@
 #+end_export
 
 * Registration Steps
-Registration is closed for the 2025-2026 season!
+Registration is open for Wrestlers grades 5-8. Boys and Girls welcome, sign up below!
+
+[[https://docs.google.com/forms/d/e/1FAIpQLSfQFVFSXA8JXAe_5kEEO4i9ZU5CC9vPytnBLVo7KDGq7JZ9pQ/viewform][Sign up for the 2026-2027 Season Here!]]
+
 
 # TODO PATDEBUG Put Facebook links here and whatever else we have
 # TODO PATDEBUG Put Image here

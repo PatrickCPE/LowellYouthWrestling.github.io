@@ -46,14 +46,11 @@ Practices are held at Doughboy Wrestling Club:
 --------------------------------------------
 
 * Upcoming Events
-|------------------------------------------------------+---------------------------------+------------+---------|
-| Event                                                | Location                        | Date       | Website |
-|------------------------------------------------------+---------------------------------+------------+---------|
-| North Andover Scrimmage                              | TBA                             | 12/13/2025 | N/A     |
-| Red Devil Rumble Tournament                          | Burlington High School          | 12/14/2025 | [[https://events.flowrestling.org/event/e632c3a2-b1b8-4d08-9069-9661ffa4bc94/summary][Sign-up]] |
-| Chelmsford Scrimmage                                 | Chelmsford High School          | 12/20/2025 | N/A     |
-| Little Big Red Tournament                            | Tyngsboro Sports Center         | 12/21/2025 | [[https://events.flowrestling.org/event/d323f22b-632f-40a4-946e-7ffeadede32d/registration][Sign-up]] |
-|------------------------------------------------------+---------------------------------+------------+---------|
+|-------+----------+--------------+---------|
+| Event | Location | Date         | Website |
+|-------+----------+--------------+---------|
+| TBA   | TBA      | TBA/TBA/2026 | N/A     |
+|-------+----------+--------------+---------|
 #+begin_export html
 <hr>
 #+end_export
